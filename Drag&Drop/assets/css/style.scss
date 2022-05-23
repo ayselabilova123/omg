@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+
+    .area {
+        margin: 10px 10px;
+        width: 60vw;
+        height: 60vh;
+        background-color: lightgreen;
+        position: relative;
+    }
+
+    .circle{
+        width: 100px;
+        height: 100px;
+        transition: all 0.4s;
+    }
+    .red{
+        background-color: red;
+    }
+    .pink{
+        background-color: pink;
+    }
+    .lightGreen{
+        background-color: lightgreen;
+    }
+    .lightBlue{
+        background-color: lightblue;
+    }
+    .positionAbsolute{
+        position: absolute;
+    }
+    .hideIt{
+        transform: scale(0);
+    }
+}

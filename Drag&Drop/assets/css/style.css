@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  
+
+}
+
+body .area {
+  margin: 10px 10px;
+  width: 60vw;
+  height: 60vh;
+  background-color: lightgreen;
+  position: relative;
+  border: 5px solid rgb(9, 238, 9) ;
+  
+  
+}
+
+body .circle {
+  width: 100px;
+  height: 100px;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  
+}
+
+body .red {
+  background-color: red;
+}
+
+body .pink {
+  background-color: pink;
+}
+
+body .lightGreen {
+  background-color: lightgreen;
+}
+
+body .lightBlue {
+  background-color: lightblue;
+}
+
+body .positionAbsolute {
+  position: absolute;
+}
+
+body .hideIt {
+  -webkit-transform: scale(0);
+          transform: scale(0);
+}
+/*# sourceMappingURL=style.css.map */
